@@ -135,9 +135,9 @@ Application configuration is managed through environment variables instead of ha
 Examples:
 
 ```env
-MYSQL_DATABASE=notesdb
-MYSQL_USER=jatin
-MYSQL_PASSWORD=jatin123
+MYSQL_DATABASE=database
+MYSQL_USER=mysql_user
+MYSQL_PASSWORD=pass
 ```
 
 ---
@@ -156,10 +156,10 @@ cd NoteSphere
 Create a .env file:
 
 ```env
-MYSQL_ROOT_PASSWORD=root123
-MYSQL_DATABASE=notesdb
-MYSQL_USER=jatin
-MYSQL_PASSWORD=jatin123
+MYSQL_ROOT_PASSWORD=root_pass
+MYSQL_DATABASE=database
+MYSQL_USER=user
+MYSQL_PASSWORD=pass
 ```
 
 ### Build and Start Containers
