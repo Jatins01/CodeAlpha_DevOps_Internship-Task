@@ -13,7 +13,7 @@ The repository is organized into separate directories for each project:
 
 2. **[Project 2: Placeholder](./project-2)**
    - Placeholder folder for the second project.
-   - Refer to the [Project 2 README](./project-2/README.md) once project details are added.
+   - Refer to the [Project 2 README](./java-gradle-app/README.md) once project details are added.
 
 ---
 
