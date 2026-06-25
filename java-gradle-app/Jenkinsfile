@@ -12,19 +12,25 @@ pipeline {
 
         stage('Gradle Build') {
             steps {
-                bat 'gradlew.bat clean build'
+                dir('java-gradle-app') {
+                    bat 'gradlew.bat clean build'
+                }
             }
         }
 
         stage('JUnit Tests') {
             steps {
-                bat 'gradlew.bat test'
+                dir('java-gradle-app') {
+                    bat 'gradlew.bat test'
+                }
             }
         }
 
         stage('Build Docker Image') {
             steps {
-                bat 'docker build -t java-gradle-app .'
+                dir('java-gradle-app') {
+                    bat 'docker build -t java-gradle-app .'
+                }
             }
         }
 
