@@ -11,8 +11,10 @@ The repository is organized into separate directories for each project:
    - Demonstates containerization, inter-service networking, reverse proxying, data persistence, and orchestration with Docker Compose.
    - Refer to the [Project 1 README](./docker-web-server/README.md) for setup and instructions.
 
-2. **[Project 2: Placeholder](./project-2)**
-   - Placeholder folder for the second project.
+2. **[Project 2: Java Application using Gradle](./java-gradle-app)**
+    - A console-based Student Management System developed in Java using Gradle.
+    - Demonstrates object-oriented programming (OOP), build automation with Gradle, unit testing using JUnit, Docker containerization, and Continuous Integration           (CI)using Jenkins.
+   - The Jenkins pipeline automatically checks out the source code, builds the application, executes JUnit tests, and creates a Docker image.
    - Refer to the [Project 2 README](./java-gradle-app/README.md) once project details are added.
 
 ---
